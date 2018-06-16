@@ -9,6 +9,13 @@
 
 ## About Laravel
 
+Deploy de laravel con git a hostinger
+
+- clonar repo
+- comando composer install
+- modificar los 2 require en public_html/index.php (autoload.php & boostrap.php)
+- generar .env en servidor  (en caso de que no exista)
+
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
